@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import logo from '../images/logo.png';
 export default class Navbar extends Component {
   render() {
@@ -23,10 +23,10 @@ export default class Navbar extends Component {
           </svg>
         </div>
         <div className="p-6 md:block hidden">
-          <Link className="p-4" to="/about">About</Link>
-          <Link className="p-4" to="/skills">Skills</Link>
-          <Link className="p-4" to="/projects">Projects</Link>
-          <Link className="p-4" to="/contact">Contact</Link>
+          <Link className="p-4" to="about" spy={true} smooth={true}>About</Link>
+          <Link className="p-4" to="skills" spy={true} smooth={true}>Skills</Link>
+          <Link className="p-4" to="projects" spy={true} smooth={true}>Projects</Link>
+          <Link className="p-4" to="contact" spy={true} smooth={true}>Contact</Link>
         </div>
       </nav>
     )
