@@ -26,7 +26,7 @@ export default class Navbar extends Component {
           <Link className="p-4" to="about" spy={true} smooth={true}>About</Link>
           <Link className="p-4" to="skills" spy={true} smooth={true}>Skills</Link>
           <Link className="p-4" to="projects" spy={true} smooth={true}>Projects</Link>
-          <Link className="p-4" to="contact" spy={true} smooth={true}>Contact</Link>
+          <Link className="p-4" to="contact" spy={true} smooth={true}>HIRE ME!</Link>
         </div>
       </nav>
     )
