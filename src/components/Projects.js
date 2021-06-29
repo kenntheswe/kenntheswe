@@ -12,30 +12,30 @@ export default class Projects extends Component {
           <h1 id="projects">Projects</h1>
         </div>
         <div className="project mb-3">
-          <img src="" alt="baiku" />
+          <img data-aos="fade-left" src="" alt="baiku" />
           <div>
-            <h1>Baiku</h1>
-            <p>A progressive web application (PWA) providing a bicycle parking spot platform. Users can search the bicycle parking spots & add a new bicycle parking spot. Furthermore, users can leave a review on the bicycle spot that they've used.</p>
-            <button><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
-            <button><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
+            <h1 data-aos="fade-right">Baiku</h1>
+            <p data-aos="fade-right">A progressive web application (PWA) providing a bicycle parking spot platform. Users can search the bicycle parking spots & add a new bicycle parking spot. Furthermore, users can leave a review on the bicycle spot that they've used.</p>
+            <button data-aos="fade-up"><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
+            <button data-aos="fade-up"><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
           </div>
         </div>
         <div className="project mb-3">
-          <img src="" alt="studiofind" />
+          <img data-aos="fade-left" src="" alt="studiofind" />
           <div>
-            <h1>StudioFind</h1>
-            <p>A web application providing a studio/ space rental platform. Users can search & rent the studio/ space provided by the owners on the site or add a new studio/ space for the users to rent. Moreover, users can view the list of studio/ space bookings that they've made.</p>
-            <button><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
-            <button><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
+            <h1 data-aos="fade-right">StudioFind</h1>
+            <p data-aos="fade-right">A web application providing a studio/ space rental platform. Users can search & rent the studio/ space provided by the owners on the site or add a new studio/ space for the users to rent. Moreover, users can view the list of studio/ space bookings that they've made.</p>
+            <button data-aos="fade-up"><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
+            <button data-aos="fade-up"><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
           </div>
         </div>
         <div className="project mb-3">
-          <img src="" alt="watchlist" />
+          <img data-aos="fade-left" src="" alt="watchlist" />
           <div>
-            <h1>Watchlist</h1>
-            <p>A web application displaying movie watchlists. Users can view the watchlist & create their own watchlist accordingly. Also, users can bookmark relevant movies on the watchlists that have been created or the ones that they've created.</p>
-            <button><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
-            <button><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
+            <h1 data-aos="fade-right">Watchlist</h1>
+            <p data-aos="fade-right">A web application displaying movie watchlists. Users can view the watchlist & create their own watchlist accordingly. Also, users can bookmark relevant movies on the watchlists that have been created or the ones that they've created.</p>
+            <button data-aos="fade-up"><a href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a></button>
+            <button data-aos="fade-up"><a href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a></button>
           </div>
         </div>
       </div>

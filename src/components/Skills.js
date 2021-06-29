@@ -12,33 +12,33 @@ export default class Skills extends Component {
         </div>
         <div className="flex justify-start md:justify-between items-left text-2xl md:text-3xl lg:text-4xl mx-8">
           <div className="flex flex-col m-4">
-            <h2>Front End</h2>
-            <div className="mt-2">
-              <i className="devicon-html5-plain colored mr-2"></i>
-              <i className="devicon-css3-plain colored mx-2"></i>
-              <i className="devicon-javascript-plain colored mx-2"></i>
-              <i className="devicon-react-original colored mx-2"></i>
-              <i className="devicon-bootstrap-plain colored mx-2"></i>
-              <i className="devicon-tailwindcss-plain colored ml-2"></i>
+            <h2 data-aos="fade-left">Front End</h2>
+            <div className="mt-4" data-aos-duration="500">
+              <i data-aos="fade-right" data-aos-duration="500" className="devicon-html5-plain colored mr-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1000" className="devicon-css3-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1500" className="devicon-javascript-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="2000" className="devicon-react-original colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="2500" className="devicon-bootstrap-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="3000" className="devicon-tailwindcss-plain colored ml-2"></i>
             </div>
           </div>
           <div className="flex flex-col m-4">
-            <h2>Back End</h2>
-            <div className="mt-2">
-              <i className="devicon-rails-plain colored mr-2"></i>
-              <i className="devicon-ruby-plain colored mx-2"></i>
-              <i className="devicon-nodejs-plain colored mx-2"></i>
-              <i className="devicon-postgresql-plain colored ml-2"></i>
+            <h2 data-aos="fade-left" data-aos-duration="500">Back End</h2>
+            <div className="mt-4">
+              <i data-aos="fade-right" data-aos-duration="500" className="devicon-rails-plain colored mr-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1000" className="devicon-ruby-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1500" className="devicon-nodejs-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="2000" className="devicon-postgresql-plain colored ml-2"></i>
             </div>
           </div>
           <div className="flex flex-col m-4">
-            <h2>DevOps</h2>
-            <div className="mt-2">
-              <i className="devicon-git-plain colored mr-2"></i>
-              <i className="devicon-github-original colored mx-2"></i>
-              <i className="devicon-heroku-plain colored mx-2"></i>
-              <i className="devicon-yarn-plain colored mx-2"></i>
-              <i className="devicon-npm-original-wordmark colored ml-2"></i>
+            <h2 data-aos="fade-left" data-aos-duration="500">DevOps</h2>
+            <div className="mt-4">
+              <i data-aos="fade-right" data-aos-duration="500" className="devicon-git-plain colored mr-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1000" className="devicon-github-original colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="1500" className="devicon-heroku-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="2000" className="devicon-yarn-plain colored mx-2"></i>
+              <i data-aos="fade-right" data-aos-duration="2500" className="devicon-npm-original-wordmark colored ml-2"></i>
             </div>
           </div>
         </div>
