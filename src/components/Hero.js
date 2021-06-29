@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 
 export default class Hero extends Component {
   render() {
@@ -6,6 +7,7 @@ export default class Hero extends Component {
       <div className="h-screen flex flex-col justify-center items-center">
         <h1 className="font-serif italic lg:text-7xl md:text-5xl sm:text-3xl text-xl font-bold">Kenn Vun Gan</h1>
         <h1 className="lg:text-7xl md:text-5xl sm:text-3xl text-xl font-light">Full Stack Developer</h1>
+        <Link to="projects" spy={true} smooth={true}><button className="rounded-full py-3 px-6 focus:outline-none bg-green-400 hover:bg-green-300 transition-colors duration-300 ease-in-out mt-5">Discover More</button></Link>
       </div>
     )
   }
