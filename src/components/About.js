@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import profile from '../images/profile.jpg';
+import { Link } from 'react-scroll';
 
 export default class About extends Component {
   render() {
@@ -13,8 +14,9 @@ export default class About extends Component {
         </div>
         <div className="flex">
           <img src={profile} alt="profile" className="rounded-lg w-48 mx-6"  />
-          <p className="text-left mt-4 mr-6">Hi, I am a <strong>Full Stack Web Developer</strong> based in Tokyo, Japan. After working as non-tech roles for almost 5 years, I decided to take the leap to pursue a career in IT & software development. I enrolled in a full-time immersive web development course at Le Wagon in Tokyo. Having graduated from this intensive program, I affirm that this is the best life-changing decision I've ever made in my life. I love learning new technologies practically by building projects.</p>
+          <p className="text-left mt-4 mr-6">Hi, I am Kenn! I'm a passionate <strong>Full Stack Web Developer</strong> based in Tokyo, Japan. I love exploring & learning new technologies by building projects.</p>
         </div>
+        <Link to="projects"><button>Check Out My Work</button></Link>
       </div>
     )
   }
