@@ -13,10 +13,12 @@ export default class About extends Component {
           <h1 id="about">About</h1>
         </div>
         <div className="flex">
-          <img src={profile} alt="profile" className="rounded-lg w-48 mx-6"  />
-          <p className="text-left mt-4 mr-6">Hi, I am Kenn! I'm a passionate <strong>Full Stack Web Developer</strong> based in Tokyo, Japan. I love exploring & learning new technologies by building projects.</p>
-        </div>
-        <Link to="projects"><button>Check Out My Work</button></Link>
+          <img data-aos="fade-right" src={profile} alt="profile" className="rounded-lg w-48 mx-6"  />
+          <div className="flex flex-col">
+            <p data-aos="fade-left" className="text-left mt-2 mr-6">Hi, I am Kenn! I'm a passionate <strong>Full Stack Web Developer</strong> based in Tokyo, Japan. I love exploring & learning new technologies by building projects.</p>
+            <Link to="projects" smooth={true} spy={true}><button data-aos="fade-up" className="focus:outline-none bg-green-400 hover:bg-green-300 transition-colors duration-300 rounded-full py-3 px-6 mt-5 mb-2">Check Out My Work</button></Link>
+          </div>
+          </div>
       </div>
     )
   }
