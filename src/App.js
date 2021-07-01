@@ -1,4 +1,5 @@
 import './App.css';
+import './Project.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
@@ -17,7 +18,7 @@ function App() {
     duration: 1500
   });
   return (
-    <div className="App">
+    <div className="App w-full">
       <Navbar />
       <Hero />
       <Projects />
