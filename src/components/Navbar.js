@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => {
   return (
     <nav className="flex justify-between h-18 m-8" role="navigation">
       <Link to="#">
-        <img src={logo} alt="logo" style={{ width: '40px' }} />
+        <img src={logo} alt="logo" style={{ width: '48px' }} />
       </Link>
       <div className="cursor-pointer md:hidden" onClick={toggle}>
         <svg
