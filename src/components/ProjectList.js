@@ -3,10 +3,33 @@ import React from 'react'
 import baiku from '../images/baiku.png'
 import studioFind from '../images/studioFind.png'
 import watchlist from '../images/watchlist.png'
+import reactGiphy from '../images/reactGiphy.png'
 
 const ProjectList = () => {
   return (
     <div className="grid gap-12 grid-cols-1 my-8">
+      <div className="project grid gap-12 grid-cols-1 md:grid-cols-2">
+        <div className="project-image-container flex justify-center" style={{ height: "280px" }}>
+          <img className="project-image" data-aos="fade-left" src={reactGiphy} alt="reactGiphy"/>
+        </div>
+        <div className="self-center" data-aos="fade-right">
+          <h1 className="text-2xl" data-aos="fade-right">React Giphy Generator</h1>
+          <p data-aos="fade-right">A giphy generator built on react app. Users can show the gif in the center after selecting one from the gif list. Users can also search the gifs according to the keywords they input & it will return up to 15 gifs on the list at once.</p>
+          <div className="flex space-x-2 my-4 text-3xl">
+            <i data-aos="fade-right" data-aos-duration="300" className="devicon-react-original colored"></i>
+            <i data-aos="fade-right" data-aos-duration="600" className="devicon-javascript-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="900" className="devicon-html5-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1200" className="devicon-css3-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-tailwindcss-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1800" className="devicon-amazonwebservices-original colored"></i>
+            <i data-aos="fade-right" data-aos-duration="2100" className="devicon-git-plain colored"></i>
+          </div>
+          <div className="flex space-x-6 mt-6">
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a>
+          </div>
+        </div>
+      </div>
       <div className="project grid gap-12 grid-cols-1 md:grid-cols-2">
         <div className="project-image-container flex justify-center" style={{ height: "280px" }}>
           <img className="project-image" data-aos="fade-left" src={baiku} alt="baiku"/>
