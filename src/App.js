@@ -1,5 +1,4 @@
 import './App.css'
-import './Project.css'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
