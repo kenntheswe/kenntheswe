@@ -27,7 +27,7 @@ const Contact = () => {
   }, 5000);
 
   return (
-    <div className="m-8">
+    <div className="h-screen m-8">
       <div className="flex justify-end space-x-3">
         <h1 className="text-2xl" id="contact">
           HIRE ME!
