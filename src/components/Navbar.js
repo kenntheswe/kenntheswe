@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className="flex justify-between h-18 my-4 mx-8" role="navigation">
+    <nav className="flex justify-between h-18 mx-6 my-4" role="navigation">
       <Link to="#">
         <img src={logo} alt="logo" style={{ width: '48px' }} />
       </Link>
