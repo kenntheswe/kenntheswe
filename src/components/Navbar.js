@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 
 const Navbar = ({ toggle }) => {
   return (
-    <nav className="flex justify-between h-18 m-8" role="navigation">
+    <nav className="flex justify-between h-18 my-4 mx-8" role="navigation">
       <Link to="#">
         <img src={logo} alt="logo" style={{ width: '48px' }} />
       </Link>
@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
           />
         </svg>
       </div>
-      <div className="flex space-x-8 cursor-pointer md:block hidden text-2xl">
+      <div className="flex space-x-8 cursor-pointer md:block hidden text-xl">
         <Link to="about" spy={true} smooth={true}>About</Link>
         <Link to="skills" spy={true} smooth={true}>Skills</Link>
         <Link to="projects" spy={true} smooth={true}>Projects</Link>
