@@ -13,31 +13,32 @@ const Skills = () => {
         <div className="flex flex-col items-center">
           <h2 className="text-3xl" data-aos="fade-left">Front End</h2>
           <div className="flex space-x-3 mt-4 text-5xl">
-            <i data-aos="fade-right" data-aos-duration="500" className="devicon-html5-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1000" className="devicon-css3-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-javascript-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="2000" className="devicon-react-original colored"></i>
-            <i data-aos="fade-right" data-aos-duration="2500" className="devicon-bootstrap-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="3000" className="devicon-tailwindcss-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="300" className="devicon-html5-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="600" className="devicon-css3-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="900" className="devicon-javascript-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1200" className="devicon-react-original colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-bootstrap-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1800" className="devicon-tailwindcss-plain colored"></i>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <h2 className="text-3xl" data-aos="fade-left">Back End</h2>
           <div className="flex space-x-3 mt-4 text-5xl">
-            <i data-aos="fade-right" data-aos-duration="500" className="devicon-rails-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1000" className="devicon-ruby-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-nodejs-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="2000" className="devicon-postgresql-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="300" className="devicon-rails-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="600" className="devicon-ruby-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="900" className="devicon-nodejs-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1200" className="devicon-postgresql-plain colored"></i>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <h2 className="text-3xl" data-aos="fade-left">DevOps</h2>
           <div className="flex space-x-3 mt-4 text-5xl">
-            <i data-aos="fade-right" data-aos-duration="500" className="devicon-git-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1000" className="devicon-github-original colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-heroku-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="2000" className="devicon-yarn-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="2500" className="devicon-npm-original-wordmark colored"></i>
+            <i data-aos="fade-right" data-aos-duration="300" className="devicon-git-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="600" className="devicon-github-original colored"></i>
+            <i data-aos="fade-right" data-aos-duration="900" className="devicon-heroku-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1200" className="devicon-firebase-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-yarn-plain colored"></i>
+            <i data-aos="fade-right" data-aos-duration="1800" className="devicon-npm-original-wordmark colored"></i>
           </div>
         </div>
       </div>
