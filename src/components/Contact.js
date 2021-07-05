@@ -85,7 +85,6 @@ const Contact = () => {
           />
         </div>
         <button
-          data-aos="fade-up"
           className="focus:outline-none bg-green-400 hover:bg-green-300 transition-colors duration-500 px-6 py-2 mt-5 rounded-md self-center"
         >
           Submit
