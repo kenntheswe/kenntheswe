@@ -11,7 +11,7 @@ const About = () => {
         </svg>
         <h1 className="text-2xl" id="about">About</h1>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-center md:space-x-12">
+      <div className="flex flex-col md:flex-row md:justify-center md:space-x-12 md:mx-10">
         <div className="flex-none self-center w-60" style={{minWidth: '60px'}}>
           <img data-aos="fade-right" src={profile} alt="profile" className="rounded-full w-60"/>
         </div>
