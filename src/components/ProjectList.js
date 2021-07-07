@@ -25,8 +25,8 @@ const ProjectList = () => {
             <i data-aos="fade-right" data-aos-duration="2100" className="devicon-git-plain colored"></i>
           </div>
           <div className="flex space-x-6 mt-6">
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://master.d2btbg8y9uz2ag.amplifyapp.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/react-giphy" target="_blank" rel="noreferrer nofollow">Code</a>
           </div>
         </div>
       </div>
@@ -71,8 +71,8 @@ const ProjectList = () => {
             <i data-aos="fade-right" data-aos-duration="2400" className="devicon-heroku-plain colored"></i>
           </div>
           <div className="flex space-x-6 mt-6">
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://studio-find.herokuapp.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/studio-find" target="_blank" rel="noreferrer nofollow">Code</a>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ const ProjectList = () => {
           <img className="project-image" data-aos="fade-left" src={watchlist} alt="watchlist"/>
         </div>
         <div className="self-center">
-          <h1 className="text-2xl" data-aos="fade-right">Watchlist</h1>
+          <h1 className="text-2xl" data-aos="fade-right">Kenn's Watchlist</h1>
           <p data-aos="fade-right">A web application displaying movie watchlists. Users can view the watchlist & create their own watchlist accordingly. Also, users can bookmark relevant movies on the watchlists that have been created or the ones that they've created.</p>
           <div className="flex space-x-2 my-4 text-3xl">
             <i data-aos="fade-right" data-aos-duration="300" className="devicon-rails-plain colored"></i>
@@ -94,8 +94,8 @@ const ProjectList = () => {
             <i data-aos="fade-right" data-aos-duration="2400" className="devicon-heroku-plain colored"></i>
           </div>
           <div className="flex space-x-6 mt-6">
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://www.baiku-official.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
-            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/baiku-app" target="_blank" rel="noreferrer nofollow">Code</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://kenns-watchlist.herokuapp.com/" target="_blank" rel="noreferrer nofollow">Demo</a>
+            <a className="bg-green-400 hover:bg-green-300 transition-colors duration-300 px-4 py-2 rounded-full" data-aos="fade-up" href="https://github.com/Kenn-0/watch-list" target="_blank" rel="noreferrer nofollow">Code</a>
           </div>
         </div>
       </div>
