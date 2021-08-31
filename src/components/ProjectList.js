@@ -13,8 +13,8 @@ const ProjectList = () => {
           <img className="project-image" data-aos="fade-left" src={reactGiphy} alt="reactGiphy"/>
         </div>
         <div className="self-center" data-aos="fade-right">
-          <h1 className="text-2xl" data-aos="fade-right">React Giphy Generator</h1>
-          <p data-aos="fade-right">A giphy generator built on react app. Users can show the gif in the center after selecting one from the gif list. Users can also search the gifs according to the keywords they input & it will return up to 15 gifs on the list at once.</p>
+          <h1 className="text-2xl" data-aos="fade-right">Giphy Generator</h1>
+          <p data-aos="fade-right">A giphy generator built on react app. Users can show the gif in the center after selecting one from the gif list. Users can also search the gifs according to the keywords they input & will return up to 15 gifs on the list at once.</p>
           <div className="flex space-x-2 my-4 text-3xl">
             <i data-aos="fade-right" data-aos-duration="300" className="devicon-react-original colored"></i>
             <i data-aos="fade-right" data-aos-duration="600" className="devicon-javascript-plain colored"></i>
@@ -82,7 +82,7 @@ const ProjectList = () => {
         </div>
         <div className="self-center">
           <h1 className="text-2xl" data-aos="fade-right">Kenn's Watchlist</h1>
-          <p data-aos="fade-right">A web application displaying movie watchlists. Users can view the watchlist & create their own watchlist accordingly. Also, users can bookmark relevant movies on the watchlists that have been created or the ones that they've created.</p>
+          <p data-aos="fade-right">A web application displaying movie watchlist. Users can view the watchlist & create their own watchlist accordingly. Also, users can bookmark relevant movies on the watchlists that have been created or the ones that they've created.</p>
           <div className="flex space-x-2 my-4 text-3xl">
             <i data-aos="fade-right" data-aos-duration="300" className="devicon-rails-plain colored"></i>
             <i data-aos="fade-right" data-aos-duration="600" className="devicon-javascript-plain colored"></i>
