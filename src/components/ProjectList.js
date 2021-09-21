@@ -13,8 +13,8 @@ const ProjectList = () => {
           <img className="project-image" data-aos="fade-left" src={reactGiphy} alt="reactGiphy"/>
         </div>
         <div className="self-center" data-aos="fade-right">
-          <h1 className="text-2xl" data-aos="fade-right">Giphy Generator</h1>
-          <p data-aos="fade-right">A giphy generator built on react app. Users can show the gif in the center after selecting one from the gif list. Users can also search the gifs according to the keywords they input & will return up to 15 gifs on the list at once.</p>
+          <h1 className="text-2xl" data-aos="fade-right">Gif Generator</h1>
+          <p data-aos="fade-right">A gif generator using GIPHY API built on react app. Users can show the gif in the center after selecting one from the gif list. Users can also search the gifs according to the keywords they input & will return up to 15 gifs on the list at once.</p>
           <div className="flex space-x-2 my-4 text-3xl">
             <i data-aos="fade-right" data-aos-duration="300" className="devicon-react-original colored"></i>
             <i data-aos="fade-right" data-aos-duration="600" className="devicon-javascript-plain colored"></i>
