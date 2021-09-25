@@ -6,11 +6,11 @@ import { useDarkMode } from './hooks/useDarkMode';
 const Navbar = ({ toggle }) => {
   const [colorTheme, setTheme] = useDarkMode();
   return (
-    <nav className="flex m-4 justify-between h-18" role="navigation">
-      <Link to="/" className="cursor-pointer">
+    <nav className="flex justify-between h-18" role="navigation">
+      <Link to="/" className="m-4 cursor-pointer">
         <img src={logo} alt="logo" style={{ width: '48px' }} />
       </Link>
-      <div className="flex">
+      <div className="flex m-4">
         <div className="cursor-pointer md:hidden" onClick={toggle}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
         </div>
         <div
           onClick={() => setTheme(colorTheme)}
-          className="ml-8 mt-2 focus:outline-none text-white bg-black w-8 h-8 dark:bg-white dark:text-black rounded-full"
+          className="ml-4 md:ml-8 md:mt-2 focus:outline-none text-white bg-black w-8 h-8 dark:bg-white dark:text-black rounded-full"
         >
           {colorTheme === "light" ? (
             <svg
