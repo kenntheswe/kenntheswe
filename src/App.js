@@ -42,7 +42,7 @@ function App() {
   })
   
   return (
-    <div className="App">
+    <div className="dark:bg-black dark:text-white transition duration-500">
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero />
