@@ -37,7 +37,7 @@ const Skills = () => {
             <i data-aos="fade-right" data-aos-duration="600" className="devicon-firebase-plain colored"></i>
             <i data-aos="fade-right" data-aos-duration="900" className="devicon-heroku-plain colored"></i>
             <i data-aos="fade-right" data-aos-duration="1200" className="devicon-git-plain colored"></i>
-            <i data-aos="fade-right" data-aos-duration="1500" className="devicon-github-original colored"></i>
+            <i style={{ color:"grey" }} data-aos="fade-right" data-aos-duration="1500" className="devicon-github-original colored"></i>
             <i data-aos="fade-right" data-aos-duration="1800" className="devicon-yarn-plain colored"></i>
             <i data-aos="fade-right" data-aos-duration="2100" className="devicon-npm-original-wordmark colored"></i>
           </div>
