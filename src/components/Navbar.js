@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
         </div>
         <div
           onClick={() => setTheme(colorTheme)}
-          className="ml-4 md:ml-8 md:mt-2 focus:outline-none text-white bg-black w-8 h-8 dark:bg-white dark:text-black rounded-full transition duration-500"
+          className="ml-4 md:ml-8 md:mt-2 focus:outline-none text-white bg-gray-900 w-8 h-8 dark:bg-white dark:text-gray-900 rounded-full transition duration-500"
         >
           {colorTheme === "light" ? (
             <svg
