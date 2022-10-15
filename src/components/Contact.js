@@ -76,7 +76,7 @@ const Contact = () => {
         <div data-aos="fade-down" className="flex flex-col mt-3">
           <label htmlFor="message">Message:</label>
           <textarea
-            className="dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 border-2 p-2 rounded-md"
+            className="dark:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 border-2 rounded-md"
             id="message"
             name="message"
             rows="3"
