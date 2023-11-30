@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> Kenn's portfolio showcasing a lil about Kenn &
+> Kenn's portfolio showcasing a lil about Kenn
 
 ### 🏠 [Homepage](https://kenntheswe.github.io/portfolio/)
 
