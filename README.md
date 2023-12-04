@@ -7,7 +7,7 @@
 
 > Kenn's portfolio showcasing a lil about Kenn
 
-### 🏠 [Homepage](https://kenntheswe.github.io/portfolio/)
+### 🏠 [Homepage](https://kenntheswe.github.io/)
 
 ## Install
 
@@ -34,7 +34,7 @@ npm run test
 
 👤 **Kenn**
 
-* Website: 
+* Website: [url](https://kenntheswe.github.io/)
 * Github: [@kenntheswe](https://github.com/kenntheswe)
 
 ## 🤝 Contributing
