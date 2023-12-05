@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to portfolio 👋</h1>
+<h1 align="center">Welcome to Kenn's Page 👋</h1>
 <p>
   <a href="https://www.npmjs.com/package/portfolio" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/portfolio.svg">
@@ -7,7 +7,7 @@
 
 > Kenn's portfolio showcasing a lil about Kenn
 
-### 🏠 [Homepage](https://kenntheswe.github.io/)
+### 🏠 [Homepage](https://kenntheswe.github.io/kenntheswe/)
 
 ## Install
 
@@ -34,7 +34,7 @@ npm run test
 
 👤 **Kenn**
 
-* Website: [url](https://kenntheswe.github.io/)
+* Website: [url](https://kenntheswe.github.io/kenntheswe/)
 * Github: [@kenntheswe](https://github.com/kenntheswe)
 
 ## 🤝 Contributing
